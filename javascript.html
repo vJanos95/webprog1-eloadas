@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header><h1>JavaScript CRUD</h1></header>
+  <nav>
+    <a href="index.html">Főoldal</a>
+    <a href="react.html">React CRUD</a>
+    <a href="spa.html">SPA</a>
+    <a href="fetchapi.html">Fetch API</a>
+    <a href="oojs.html">OOJS Oldal</a>
+  </nav>
+
+<div class="container">
+
+  <input type="text" id="newCity" placeholder="Új város neve">
+  <button onclick="addCity()">Hozzáadás</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Név</th>
+        <th>Művelet</th>
+      </tr>
+    </thead>
+    <tbody id="cityTable"></tbody>
+  </table>
+
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
